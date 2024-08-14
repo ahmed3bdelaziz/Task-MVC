@@ -1,0 +1,18 @@
+﻿@model Student
+
+<div class="card">
+    <div class="card-header">
+        Student Card
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Student ID: @Model.Id</h5>
+        <p class="card-text">Name: @Model.Name</p>
+        <p class="card-text">Address: @Model.Address</p>
+        <img src="/css/Images/@Model.Img" alt="Student Image" class="img-fluid" style="max-width: 300px;">
+    </div>
+    <div class="card-footer">
+        <a href="/Student" class="btn btn-primary">Back to Students</a>
+
+
+    </div>
+</div>
